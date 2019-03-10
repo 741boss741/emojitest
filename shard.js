@@ -4,6 +4,26 @@ var prefix = '•';
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
+
+client.on('message', message => {
+    if (!message.channel.guild) return;
+    let emoji = {
+        online: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'online')}`,
+        dnd: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'dnd')}`,
+        idle: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'idle')}`,
+        offline: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'offline')}`,
+    }
+    if (message.content.startsWith(prefix + 'members')) {
+        var edited = new Discord.RichEmbed()
+            .setThumbnail(message.author.avatarURL)
+            .setFooter(message.author.username, message.author.avatarURL)
+            .addField('? Members', `» ${emoji.online} \`${message.guild.members.filter(r => r.presence.status === 'online').size}\` | ${emoji.idle} \`${message.guild.members.filter(r => r.presence.status === 'idle').size}\` | ${emoji.bot} \`${message.guild.members.filter(r => r.user.bot).size}\`\n» ${emoji.dnd} \`${message.guild.members.filter(r => r.presence.status === 'dnd').size}\` | ${emoji.offline} \`${message.guild.members.filter(r => r.presence.status === 'offline').size}\` | ${emoji.discord} \`${message.guild.memberCount}\``, true);
+        message.channel.send(edited);
+    }
+});
+
+
+
 client.on('message', message => {
    let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_12"); //كود تعريف المتغير emoji
  
