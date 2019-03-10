@@ -8,10 +8,10 @@ client.on('ready', () => {
 client.on('message', message => {
     if (!message.channel.guild) return;
     let emoji = {
-        online: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'online')}`,
-        dnd: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'dnd')}`,
-        idle: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'idle')}`,
-        offline: `${hero.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'offline')}`,
+        online: `${client.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'online')}`,
+        dnd: `${client.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'dnd')}`,
+        idle: `${client.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'idle')}`,
+        offline: `${client.guilds.find(r => r.id === '554134139226292244').emojis.find(e => e.name === 'offline')}`,
     }
     if (message.content.startsWith(prefix + 'members')) {
         var edited = new Discord.RichEmbed()
