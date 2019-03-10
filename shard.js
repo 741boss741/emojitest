@@ -46,7 +46,7 @@ client.on('message', message => {
 let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_1");
     if (message.author.bot) return;
      if (message.content === prefix + "help-en") {
-		 message.channel.send('${emoji} **The Message Was Sent On Private**');
+		 message.channel.send(`${emoji} **The Message Was Sent On Private**`);
             
 	
 		 
