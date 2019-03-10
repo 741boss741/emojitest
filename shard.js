@@ -12,6 +12,77 @@ client.on('message', message => {
     }  // xomar933 نهاية قوس التحقق
 }); // x نهاية قوس الايفنت 
 
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_10"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_9"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_8"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_7"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_6"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_5"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_4"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_3"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
+
+client.on('message', message => {
+   let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_2"); //كود تعريف المتغير emoji
+ 
+    if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
+   message.channel.send(`${emoji}`)//يرسل المتغير emoji 
+    }  // xomar933 نهاية قوس التحقق
+}); // x نهاية قوس الايفنت 
 
 client.on('message', message => {
    let emoji = client.guilds.get("554134139226292244").emojis.find(r => r.name === "emoji_11"); //كود تعريف المتغير emoji
