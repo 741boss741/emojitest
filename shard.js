@@ -13,7 +13,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-   let emoji = client.guilds.get("511225819415183360").emojis.find(r => r.name === "Minecraft"); //كود تعريف المتغير emoji
+   let emoji = client.guilds.get("511225819415183360").emojis.find(r => r.name === "left"); //كود تعريف المتغير emoji
  
     if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
    message.channel.send(`${emoji}`)//يرسل المتغير emoji 
@@ -22,7 +22,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-   let emoji = client.guilds.get("511225819415183360").emojis.find(r => r.name === "PUBG"); //كود تعريف المتغير emoji
+   let emoji = client.guilds.get("511225819415183360").emojis.find(r => r.name === "rly"); //كود تعريف المتغير emoji
  
     if(message.content === 'sendemoji'){ //تحقق اذا الرساله هي sebdemji
    message.channel.send(`${emoji}`)//يرسل المتغير emoji 
