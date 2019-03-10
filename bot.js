@@ -61,4 +61,4 @@ message.channel.send(`${emoji} تم ارسالك في الخاص`);
     }
 });
 
-client.login('NTA2ODg4OTkzMDM2ODI4Njcz.D2NrLA.OSIzF9cghFw0PyxCOltPcRdlVbc')
+client.login(process.env.BOT_TOKEN)
