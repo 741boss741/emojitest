@@ -921,7 +921,7 @@ client.on('message',async message => {
       if(credits[author].daily !== 86400000 && Date.now() - credits[author].daily !== 86400000) {
           message.channel.send(`**❎ |** You already **Claimed** the daily ammount of credits since \`${pretty(Date.now() - credits[author].daily)}\`.`);
       } else {
-          let ammount = getRandom(300, 500);
+          let ammount = 300
           credits[author].daily = Date.now();
           credits[author].credits += ammount;
           fs.writeFileSync(creditsPath, JSON.stringify(credits, null, 4));
